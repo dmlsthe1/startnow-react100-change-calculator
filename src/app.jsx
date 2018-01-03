@@ -79,7 +79,6 @@ class App extends Component {
         <header className="h1 text-white">Change Calculator</header>
         <hr className="bg-white"/>
 
-        <div className="container">
           <div className="row">
 
             <div className="col-4">
@@ -166,9 +165,7 @@ class App extends Component {
                 </div>
               </div>
             </div>
-
           </div>
-        </div>
 
       </div>
     )
