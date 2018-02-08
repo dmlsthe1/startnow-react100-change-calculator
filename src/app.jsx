@@ -107,29 +107,29 @@ class App extends Component {
                   <div className="card p-3 bg-light">
                     <img className="card-img" src="css/20dollar.png" alt="Card image"/>
                     <div className="card-img-overlay">
-                      <div className="text-center card-title  font-weight-bold">Twenties</div>
-                      <div className="text-center result text-danger">{this.state.twenties}</div>
+                      <div className="text-center card-title clearfix result-title font-weight-bold">Twenties</div>
+                      <div className="text-center result text-success">{this.state.twenties}</div>
                     </div>
                   </div>
                   <div className="card p-3 bg-light">
                     <img className="card-img" src="css/10dollar.jpg" alt="Card image"/>
                     <div className="card-img-overlay">
-                      <div className="text-center card-title  font-weight-bold">Tens</div>
-                      <div className="text-center result text-danger">{this.state.tens}</div>
+                      <div className="text-center card-title result-title font-weight-bold">Tens</div>
+                      <div className="text-center result text-success">{this.state.tens}</div>
                     </div>
                   </div>
                   <div className="card p-3 bg-light">
                     <img className="card-img" src="css/5dollar.jpg" alt="Card image"/>
                     <div className="card-img-overlay">
-                      <div className="text-center card-title  font-weight-bold">Fives</div>
-                      <div className="text-center result text-danger">{this.state.fives}</div>
+                      <div className="text-center card-title result-title font-weight-bold">Fives</div>
+                      <div className="text-center result text-success">{this.state.fives}</div>
                     </div>
                   </div>
                   <div className="card p-3 bg-light">
                     <img className="card-img" src="css/1dollar.jpg" alt="Card image"/>
                   <div className="card-img-overlay">
-                      <div className="text-center card-title  font-weight-bold">Ones</div>
-                      <div className="text-center result text-danger">{this.state.ones}</div>
+                      <div className="text-center card-title result-title font-weight-bold">Ones</div>
+                      <div className="text-center result text-success">{this.state.ones}</div>
                     </div>
                   </div>
                 </div>
@@ -137,29 +137,29 @@ class App extends Component {
                   <div className="card p-3 bg-light">
                     <img className="card-img" src="css/quarter.png" alt="Card image"/>
                     <div className="card-img-overlay">
-                      <div className="text-center card-title  font-weight-bold">Quarters</div>
-                      <div className="text-center result text-danger">{this.state.quarters}</div>
+                      <div className="text-center card-title result-title font-weight-bold">Quarters</div>
+                      <div className="text-center result text-success">{this.state.quarters}</div>
                     </div>
                   </div>
                   <div className="card p-3 bg-light">
                     <img className="card-img" src="css/dime.png" alt="Card image"/>
                     <div className="card-img-overlay">
-                      <div className="text-center card-title  font-weight-bold">Dimes</div>
-                      <div className="text-center result text-danger">{this.state.dimes}</div>
+                      <div className="text-center card-title result-title font-weight-bold">Dimes</div>
+                      <div className="text-center result text-success">{this.state.dimes}</div>
                     </div>
                   </div>
                   <div className="card p-3 bg-light">
                     <img className="card-img" src="css/nickel.jpg" alt="Card image"/>
                     <div className="card-img-overlay">
-                      <div className="text-center card-title  font-weight-bold">Nickels</div>
-                      <div className="text-center result text-danger">{this.state.nickels}</div>
+                      <div className="text-center card-title result-title font-weight-bold">Nickels</div>
+                      <div className="text-center result text-success">{this.state.nickels}</div>
                     </div>
                   </div>
                   <div className="card p-3 bg-light">
                     <img className="card-img" src="css/cent.jpg" alt="Card image"/>
                     <div className="card-img-overlay">
-                      <div className="text-center card-title  font-weight-bold">Pennies</div>
-                      <div className="text-center result text-danger">{this.state.pennies}</div>
+                      <div className="text-center card-title result-title font-weight-bold">Pennies</div>
+                      <div className="text-center result text-success">{this.state.pennies}</div>
                     </div>
                   </div>
                 </div>
